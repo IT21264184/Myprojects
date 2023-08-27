@@ -1,0 +1,420 @@
+.combo {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.center{
+  transition: 300ms ease-in-out;
+}
+
+.navbar1 ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.navbar1 ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  transition: 300ms ease-in-out;
+}
+
+.navbar1 ul li a:hover {
+  /* background-color: rgb(241, 241, 241); */
+  transform: scale(1.1);
+}
+
+.navbar1 ul li a.active {
+  /* background-color: rgb(235, 235, 235); */
+  border-left: 4px solid black;
+  transform: scale(1.4);
+}
+
+.navbar1 {
+  padding-left: 10%;
+  min-width: 30%;
+  font-size: 15px;
+}
+
+.settings {
+  padding: 20px;
+  padding-left: 80px;
+  border-left: 1px solid rgb(219, 216, 216);
+  padding-top: 0px;
+  width: 500px;
+}
+
+.settings-head {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.settings-head .photo img {
+  border-radius: 50px;
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.settings label,
+.checkout label,
+.right label {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.settings button {
+  display: flex;
+  height: 40px;
+  width: 80px;
+  border: 2px solid #BFC0C0;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .7em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  background-color: black
+    /* #2D3142 */
+  ;
+  cursor: pointer;
+}
+
+.settings .data {
+  margin: 20px 0px;
+}
+
+.settings .container1 {
+  padding-left: 0px;
+}
+
+.whole {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.whole .details .num {
+  font-size: 2rem;
+  padding-left: 1px;
+
+}
+
+.details span {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.namepen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 300ms ease-in-out;
+}
+
+.details:hover {
+  background-color: rgb(237, 235, 235);
+  border-radius: 10px;
+}
+
+.sett {
+  min-width: 60%;
+}
+
+.sett .checkout {
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.sett .center .container1,
+.cntr,
+.cntr2 {
+  padding-right: 22px;
+  padding-bottom: 0px;
+}
+
+.sett .center .container1 input,
+.c .cntr .data input,
+.c .cntr2 .data input {
+  height: 37px;
+}
+
+.sett .center input[type='checkbox'],
+.c input[type='checkbox'] {
+  display: none;
+}
+
+
+.checkout .center .addresscont {
+  display: none;
+}
+
+
+.container1 ul {
+  list-style-type: none;
+  padding-left: 1px;
+}
+
+.container1 ul li {
+  display: block;
+}
+
+.container1 {
+  display: none;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  position: relative;
+}
+
+.cntr,
+.cntr2 {
+  display: none;
+  background-color: white;
+  width: 400px;
+  position: relative;
+}
+
+#show:checked~.container1,
+#showcntr:checked~.cntr,
+#showcntr2:checked~.cntr2 {
+  display: block;
+}
+
+.container1 form,
+.cntr form,
+.cntr2 form {
+  margin-top: -20px;
+}
+
+.container1 .data,
+.cntr .data,
+.cntr2 .data {
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.container1 .data input,
+.cntr .data input,
+.cntr2 .data input {
+  height: 37px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(241, 241, 241);
+}
+
+.container1 .data input:focus,
+.cntr .data input:focus,
+.cntr2 .data input:focus {
+  outline: darkgray solid 2px;
+}
+
+.container1 .btn button {
+  padding: 15px 12px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 0px;
+
+}
+
+.container1 ul li {
+  padding: 20px 10px;
+  border-bottom: 1px solid rgb(231, 230, 230);
+  cursor: pointer;
+}
+
+.cntr .data,
+.cntr2 .data {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.c .cntr button,
+.c .cntr2 button {
+  background-color: rgb(241, 241, 241);
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 37px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.settings label,
+.checkout label,
+.right label {
+  font-weight: bold;
+}
+
+.checkout {
+  list-style-type: none;
+  border-bottom: 2px solid rgb(219, 216, 216);
+  padding: 15px 10px;
+}
+
+.checkout li {
+  padding: 10px 10px 10px 0px;
+}
+
+
+.profbut {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+.profbut p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+
+.sett .save {
+  margin-top: 10px;
+  
+}
+
+@media screen and (max-width:800px){
+  .combo{
+    flex-direction: column;
+  }
+
+  .navbar1{
+    padding-left: 5%;
+  }
+
+  .navbar1 li a{
+    text-align: center;
+  }
+  
+  .settings{
+  	width: 80%;
+  	margin-left: 70px;
+  	border-left: none;
+  }
+}
+
+.modal-confirm {		
+	color: #636363;
+	width: 400px;
+}
+.modal-confirm .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	font-size: 14px;
+}
+.modal-confirm .modal-header {
+	border-bottom: none;   
+	position: relative;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -10px;
+}
+.modal-confirm .close {
+	position: absolute;
+	top: -5px;
+	right: -2px;
+}
+.modal-confirm .modal-body {
+	color: #999;
+}
+.modal-confirm .modal-footer {
+	border: none;
+	text-align: center;		
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 10px 15px 25px;
+}
+.modal-confirm .modal-footer a {
+	color: #999;
+}		
+.modal-confirm .icon-box {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	z-index: 9;
+	text-align: center;
+	border: 3px solid #f15e5e;
+}
+.modal-confirm .icon-box i {
+	color: #f15e5e;
+	font-size: 46px;
+	display: inline-block;
+	margin-top: 13px;
+}
+.modal-confirm .btn, .modal-confirm .btn:active {
+	color: #fff;
+	border-radius: 4px;
+	background: #60c7c1;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	min-width: 120px;
+	border: none;
+	min-height: 40px;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+.modal-confirm .btn-secondary {
+	background: #c1c1c1;
+}
+.modal-confirm .btn-secondary:hover, .modal-confirm .btn-secondary:focus {
+	background: #a8a8a8;
+}
+.modal-confirm .btn-danger {
+	background: #f15e5e;
+}
+.modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
+	background: #ee3535;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+
+.text-center a{
+	color: white;
+    background: #ff5b5b;
+    padding: 10px 15px;
+}
+
+.text-center a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.log_delete{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/ddfb07fd4a.js" crossorigin="anonymous"></script>
+    <title>Feedback</title>
+    <link rel = "icon" href ="style/images/logo - Copy.png"
+    type = "image/x=icon">
+    
+    <link rel="stylesheet" href="../css/projectCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../php/user.php"><img src="../images/user.png" class=" user" alt="profile_pic"></a>
+            <a href="home.html"><img src="../images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="FAQ.html">Help</a></li>
+                <li><a href="Resources.html">Support Services</a></li>
+                <li><a href="../php/ContactUs.php" >Contact Us</a></li>
+            </ul>
+        </div>
+        <br> 
+        <h1 class="faqfont">FEEDBACK</h1>
+        <br>
+        <div class="feedback-form">
+        <div class="row">
+        
+               
+         <form action="config.php" method="post">   
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <br><br><br><br>
+                <label class="col-md-4">Full Name*<br><br>
+                <input type="text" id="text" required="" name="name" placeholder="Enter your name"></label>
+                <br><br>
+
+                <label class="col-md-4">Email*<br><br>
+                <input type="text" id="text" required="" name="mail" placeholder="Enter your Email"></label>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <label class="col-md-4">ID*<br><br>
+                <input type="number" id="text" required="" name="ID" placeholder="Enter your Employee ID"></label>
+                <br><br>
+
+                <label class="col-md-4">Phone*<br><br>
+                <input type="number" id="text" required="" name="number" placeholder="Enter your mobile number"></label>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <label class="col-md-4">Message*<br><br>
+                    <textarea id="message" required="" name="Message" placeholder="Write your Message" cols="48" rows="5"> </textarea>
+
+            </div>
+
+            <div class="row">
+                <br><br>
+               <button class="btnsub" name="submit"><b>submit</b></button>
+               <br><br>
+            
+            </div>
+            <div class="col-md-8">
+                <br>
+                    <h3 class="mt-4">How do you rate your rate experience?</h3>
+                    <br>
+                    
+                        <label class="radio-inline"> <input type="radio" name="experience" value="bad">Bad</label>
+                        <label class="radio-inline"> <input type="radio" name="experience" value="Average">Average</label>
+                        <label class="radio-inline"> <input type="radio" name="experience" value="Good">Good</label>
+                        <br><br>
+
+                </div>
+
+        </div>
+            
+    </form>
+    </div>
+
+        
+    <div class="footer">
+        <button><a href="Feedback.html"> Feedback</a></button>
+        <p style="margin-left:-50px;"> Copyright 2022 ©ABC (PVT) Limited. All Rights Reserved. </p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+    </div>
+</div>
+</body>
+</html>

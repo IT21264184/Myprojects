@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--sql queries -->
+
+<Querys>
+
+	<!-- Get all items for the cart Query -->
+	<query id="all_cart">
+        <![CDATA[
+            select *
+			from Cart_Item ci, Cart c, Customer cu
+			where c.customer = cu.email and ci.cid = c.id and c.customer = ?
+        ]]>
+	</query>
+	
+	<!-- Delete all items from the cart Query -->
+	<query id="clear_cart">
+        <![CDATA[
+            DELETE FROM cart_item
+			WHERE cid = (select id
+						from Cart 
+		                where customer = ?);
+        ]]>
+	</query>
+	
+	<!-- Delete specific items from the cart Query -->
+	<query id="clear_specific_cart">
+        <![CDATA[
+            DELETE FROM cart_item
+			WHERE cid = (select id
+							from Cart 
+			                where customer = ?) and it_id = ?;
+        ]]>
+	</query>
+	
+	<!-- Get price for a item from the cart Query -->
+	<query id="get_price_cart">
+        <![CDATA[
+            select price from item where id = ?;
+        ]]>
+	</query>
+	
+	<!-- Select a particular customer by email Query -->
+	<query id="customer_by_email">
+         <![CDATA[        
+            select * 
+            from Customer 
+            where email = ?
+        ]]>
+	</query>
+	
+	<!-- Delete a particular customer by email Query -->
+	<query id="remove_customer">
+         <![CDATA[        
+            delete from Customer where email = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular customer by email Query -->
+	<query id="update_customer">
+         <![CDATA[        
+            UPDATE customer
+			SET
+			`email` = ?,
+			`password` = ?
+			`name` = ?,
+			`phone` = ?>,
+			`address` = ?
+			WHERE `email` = ?;
+        ]]>
+	</query>
+
+</Querys>

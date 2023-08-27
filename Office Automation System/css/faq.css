@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+body{
+    margin:0;
+   
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand', sans-serif;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 80px;
+    padding: 30px 80px 0px 80px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #3f4b5d, #557885, #78a6a4, #afd3bc, #f6fed6);
+    overflow-y: scroll;
+}
+
+.container div {
+    padding: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative;
+    background-color: #343f42;
+    box-shadow: 0 0 3px grey;
+    overflow: hidden;
+    text-align: center;
+    border-top: solid 4px chocolate;
+}
+
+.header:hover {
+    transform: scale(1.008);
+    transition: 1s all ease-in-out;
+    ali
+}
+
+.header ul li{
+    display:inline-block;
+}
+
+    
+
+.header ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.header ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.header ul li .active {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+
+.header .logo {
+    float: left;
+    height: 70px;
+    width: 90px;
+}
+
+.header .user {
+    float: right;
+    width: 60px;
+    margin: 10px;
+}
+
+.header .user:hover {
+    opacity: 0.7;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer {
+    position:relative;
+    bottom:0;
+    transform: translate(0%) translateY(500%);
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #343f42;
+    color: white;
+    font-size: 90%;
+    text-align: center;
+    border-top: solid 4px chocolate;
+}
+
+.footer a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    padding: 0 10px 5px 5px;
+}
+
+.footer button {
+    float: left;
+    height: 26px;
+}
+
+
+
+.faqfont{
+    position: relative;
+    top: 10%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.faqfont:hover, .faqfont:focus{
+    transition: 0.6s;
+    font-size:62px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    background: #fff;
+    color: #000000;
+    display: flex;
+    min-height: 100vh;
+}
+
+.faqcontainer{
+    margin:0;
+    padding: 4rem;
+    width: 48rem;
+   
+}
+
+/*
+.accordion .accordion-item{
+    border-bottom: 1px solid #b89ba6;
+}*/
+
+.accordion .accordion-item button[aria-expanded='true']{
+    border-bottom: 1px solid #03b5d2;
+
+}
+
+.accordion button{
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #b3b7bb;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border:2;
+    border-radius:50px;
+    background:#1e3135 ;
+    opacity: 1;
+    outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus{
+    cursor:pointer;
+    color: #a2a850;
+    font-size: 20px;
+}
+
+.accordion button .accordion-title{
+    padding: 1em 1.5em 1em 0;
+    position: relative;
+    left:10px;
+}
+
+.accordion button .icon{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.accordion button .icon::before{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+.accordion button .icon::after{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 4px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: white;
+}
+
+.accordion button[aria-expanded="true"]{
+    color: #131616;
+}
+
+.accordion button[aria-expanded='true'] .icon::after{
+    width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content{
+   opacity: 1;
+   max-height: 9em;
+   transition: all 200ms linear;
+   will-change: opacity, max-height;
+
+}
+
+.accordion .accordion-content{
+    opacity: 0;
+    max-height: 0;
+    color:#141110;
+    overflow:hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+.mt-4{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Brush Script MT", Cursive;
+}
+
+.radio-inline{
+    font-family: Lucida Console;
+    margin: 10px 50px 40px 0px;
+    position: relative;
+    text-align: center;
+    left:20%;
+    cursor: pointer;
+}
+
+.rate{
+    position: relative;
+    top:20%;
+    transform: translate(-130%);
+}

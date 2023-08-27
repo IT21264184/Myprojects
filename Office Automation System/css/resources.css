@@ -1,0 +1,334 @@
+body{
+    margin:0;
+   
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand', sans-serif;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 80px;
+    padding: 30px 80px 0px 80px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #3f4b5d, #557885, #78a6a4, #afd3bc, #f6fed6);
+    overflow-y: scroll;
+}
+
+.container div {
+    padding: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative;
+    background-color: #343f42;
+    box-shadow: 0 0 3px grey;
+    overflow: hidden;
+    text-align: center;
+    border-top: solid 4px chocolate;
+}
+
+.header:hover {
+    transform: scale(1.008);
+    transition: 1s all ease-in-out;
+    ali
+}
+
+.header ul li {
+    display:inline;
+}
+
+.header ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.header ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.header ul li .active {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+
+.header .logo {
+    float: left;
+    height: 70px;
+    width: 90px;
+}
+
+.header .user {
+    float: right;
+    width: 60px;
+    margin: 10px;
+}
+
+.header .user:hover {
+    opacity: 0.7;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer {
+    position:relative;
+    bottom:0;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #343f42;
+    color: white;
+    font-size: 90%;
+    text-align: center;
+    border-top: solid 4px chocolate;
+}
+
+.footer a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    padding: 0 10px 5px 5px;
+}
+
+.footer button {
+    float: left;
+    height: 26px;
+}
+
+
+
+.faqfont{
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+.faqfont:hover, .faqfont:focus{
+    transition: 0.6s;
+    font-size:62px;
+}
+.search-box{
+    position:relative;
+    width:610px;
+    left:140%;
+    top:-400px;
+    transform: translate(-50%, -50%);
+    background:#2f3640;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    
+
+}
+
+.search-btn{
+    position: relative;
+    top:-10px;
+    right:-10px;
+    color: #28cab5;
+    float: right;
+    width:40px;
+    height:40px;
+    border-radius:10%;
+    background: #2f3640;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    position:absolute;
+    border: none;
+    background: none;
+    outline:none;
+    float:left;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    line-height: 40px;
+    width:540px;
+   
+
+}
+.icon{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+.topic{
+    font-size: 10px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+}
+
+h5{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+h3:hover, h3:focus{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    font-size: 19px;
+    
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.text-center{
+    font-size:15px;
+    font-family:Cursive;
+    color:#666665;
+    position: relative;
+    text-align: center;
+ 
+   
+  
+}
+
+
+.mt-4{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Brush Script MT", Cursive;
+}
+
+.radio-inline{
+    font-family: Lucida Console;
+    margin: 10px 50px 40px 0px;
+    position: relative;
+    text-align: center;
+    left:20%;
+    cursor: pointer;
+}
+
+label{
+    color: #000;
+}
+
+#text{
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    color: rgb(207, 198, 198);
+    background-color: #000;
+
+}
+#text:hover, #text:focus{
+    font-size:15px;
+}
+#message{
+    outline: none;
+    border: none;
+    padding: 10px 0px 0px 15px;
+    font-size: 16px;
+    color: rgb(207, 198, 198);
+    border-radius: 10px;
+    width: 100%;
+    background-color: #000;
+}
+
+#message:hover, #message:focus{
+    font-size:17px;
+}
+
+.feedback-form{
+   position: relative;
+   
+   top:-500%;
+   left:100%;
+    
+}
+
+.row{
+    position: relative;
+}
+
+.col-md-4{
+    position: relative;
+    
+}
+
+.btnsub{
+    color:#c4c7c9;
+    font-size: 20px;
+    font-family:"Courier New",Monospace;
+    background-color: #545850;
+    border-radius: 10px;
+    width:53.5%; 
+    left:8%;
+    position:absolute;
+    margin-left: 15%;
+    height:40px;
+    width:150px
+}
+
+.btnsub:hover, .btnsub:focus{
+    opacity:80%;
+    cursor: pointer;
+    color:rgb(95, 177, 40);
+}
+
+
+.col-md-8{
+  font-size: 15px;
+}
+
+.feedbackbox{
+    color:rgb(32, 32, 32);
+}
+
+h4{
+    text-align: center;
+    position:absolute;
+    top:-20%;
+    left: 10%;
+    font-family: 'Macondo', cursive;
+    color:#29302c;
+    opacity: 0.2;
+}
+h4:hover{
+   
+    opacity:100;
+    transition: 1s ease-in-out;
+}
+.fa{
+    display: flex;
+    heigh:100vh;
+    width:100%;
+}
+

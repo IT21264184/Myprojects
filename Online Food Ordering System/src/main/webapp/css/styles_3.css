@@ -1,0 +1,722 @@
+.details span {
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+.details {
+	padding: 10px;
+}
+
+.left-body button {
+	border-radius: 12px;
+	border: none;
+	background-color: rgb(219, 216, 216);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.right .footbut {
+	padding: 20px 14px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 20px 0px;
+}
+
+.favul2 .favulbut .buyagain {
+	/* background-color: rgb(219, 216, 216);
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px 0px;
+    font-family: mo; */
+	display: flex;
+	height: 40px;
+	width: 100px;
+	border: 2px solid #BFC0C0;
+	color: #BFC0C0;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: .7em;
+	letter-spacing: 1.5px;
+	align-items: center;
+	justify-content: center;
+	background-color: black /* #2D3142 */;
+	cursor: pointer;
+	border-radius: 0px;
+}
+
+.navbar1 ul {
+	list-style-type: none;
+	width: 100%;
+}
+
+.navbar1 ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	transition: 300ms ease-in-out;
+}
+
+.navbar1 ul li a:hover {
+	/* background-color: rgb(241, 241, 241); */
+	transform: scale(1.1);
+}
+
+.navbar1 ul li a.active {
+	/* background-color: rgb(235, 235, 235); */
+	border-left: 4px solid black;
+	transform: scale(1.4);
+}
+
+.navbar1 {
+	padding-left: 10%;
+	min-width: 30%;
+	font-size: 15px;
+}
+
+.combo {
+	margin-top: 65px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.combochk {
+	display: flex;
+	flex-direction: row;
+	column-gap: 10%;
+	justify-content: space-between;
+}
+
+.sett {
+	min-width: 60%;
+}
+
+.sett .checkout {
+	padding-left: 0px;
+}
+
+.left {
+	min-width: 40%;
+	padding-left: 30px;
+}
+
+.settings {
+	padding: 10px;
+	border-left: 1px solid rgb(219, 216, 216);
+	display: flex;
+	flex-direction: column;
+	min-width: 200px;
+	width: 100%;
+}
+
+.settings-head {
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+
+.settings-head .photo img {
+	border-radius: 50px;
+	width: 70px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.settings label, .checkout label, .right label {
+	font-weight: bold;
+}
+
+.right label {
+	font-size: 1.25rem;
+	text-align: left;
+}
+
+.settings button {
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(219, 216, 216);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.logout {
+	color: red;
+}
+
+.favul .fav {
+	padding: 20px 0px;
+	width: 250px;
+}
+
+.fav img {
+	width: 100%;
+	height: 200px;
+}
+
+.fav2 img {
+	width: 230px;
+	height: 160px;
+}
+
+.fav2 {
+	display: flex;
+	column-gap: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow-x: hidden;
+}
+
+.fav2 .favulbut {
+	min-width: 20%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.fav2 .favulbut button:hover {
+	background-color: rgb(49, 49, 49);
+}
+
+.favul {
+	list-style-type: none;
+	padding-left: 10px;
+	display: flex;
+	column-gap: 20px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.favul2 {
+	list-style-type: none;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.favul li {
+	cursor: pointer;
+}
+
+.favul li {
+	transition: transform .5s;
+}
+
+.favul2 li {
+	transition: transform .5s;
+}
+
+.favul li:hover {
+	background-color: rgb(232, 232, 232);
+	transition: 200ms ease-in-out;
+	transform: scale(1.025);
+}
+
+.favul2 li:hover {
+	background-color: rgb(243, 243, 243);
+	transition: 200ms ease-in-out;
+}
+
+.fav-header .title {
+	font-size: 3.5rem;
+	font-weight: 400;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+.checkout {
+	list-style-type: none;
+	border-bottom: 2px solid rgb(219, 216, 216);
+	padding: 15px 10px;
+}
+
+.checkout li {
+	padding: 10px;
+}
+
+.right {
+	min-width: 40%;
+	text-align: center;
+	background-color: rgb(245, 241, 241);
+	padding: 10px 70px;
+}
+
+.right .checkout li {
+	text-align: left;
+	color: rgb(59, 59, 59);
+}
+
+.rightbut {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.profbut {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	flex-direction: row;
+}
+
+.profbut p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.paydiv {
+	padding: 10px;
+}
+
+.pad {
+	font-size: 2rem;
+	font-weight: bolder;
+	padding: 10px 15px 10px 0px;
+}
+
+.labelpad {
+	padding: 15px 10px;
+}
+
+.whole {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.cntr form .data, .cntr2 form .data {
+	display: flex;
+	column-gap: 5px;
+	align-items: center;
+}
+
+.checkout .center .addresscont {
+	display: none;
+}
+
+.cntr, .cntr2 {
+	padding-left: 5px;
+	padding-right: 22px;
+	padding-bottom: 0px;
+}
+
+.cntr, .cntr2 {
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 22px;
+	padding-bottom: 0px;
+}
+
+.c .cntr .data input, .c .cntr2 .data input {
+	height: 37px;
+}
+
+.sett .center input[type='checkbox'], .c input[type='checkbox'] {
+	display: none;
+}
+
+#showcntr:checked ~.cntr, #showcntr2:checked ~.cntr2 {
+	display: block;
+}
+
+.cntr form, .cntr2 form {
+	margin-top: -20px;
+}
+
+.cntr form .data, .cntr2 form .data {
+	height: 45px;
+	width: 100%;
+	margin: 40px 0;
+}
+
+.cntr form .data input, .cntr2 form .data input {
+	height: 100%;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 15px;
+	border: none;
+	background-color: rgb(241, 241, 241);
+}
+
+.cntr form .data input:focus, .cntr2 form .data input:focus {
+	outline: darkgray solid 2px;
+}
+
+.c .cntr button, .c .cntr2 button {
+	background-color: rgb(241, 241, 241);
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 37px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.closelabelcredit, .closelabelcash {
+	font-size: 2rem;
+	font-weight: bolder;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+
+.whole .details .num {
+	font-size: medium;
+}
+
+.bg-modalcredit {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.bg-modalcredit form .data {
+	margin-bottom: 0px;
+}
+
+.bg-modalcredit form .btn button {
+	margin-top: 40px;
+}
+
+.bg-modalcash, .bg-modalreview {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.payhead label {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+.centerli {
+	display: flex;
+	align-items: center;
+}
+
+.centerli img {
+	margin-right: 20px;
+}
+
+.inputline {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 10px;
+}
+
+.settings form .data {
+	margin: 20px 0px;
+}
+
+/* .container21{
+    display: ;
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    position: relative;
+}*/
+.container2 .closelabel {
+	font-size: 2rem;
+	font-weight: bolder;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+
+.namenum {
+	display: none;
+}
+
+.btncenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .review {
+    padding: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.review .star input {
+    display: none;
+}
+
+form{
+    width: 100%;
+}
+
+.review .star label {
+    color: gray;
+    padding: 5px;
+    font-size: 20px;
+    transition: all 0.2s ease;
+    float: right;
+}
+
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover~label {
+    color: black;
+}
+
+.star input:checked~label {
+    color: black;
+}
+
+input#rate-5:checked~label {
+    color: black;
+    text-shadow: 0 0 20px rgb(141, 141, 141);
+}*/
+.starbtn button {
+	padding: 15px 12px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+input:checked ~.container2, input:checked ~.bg-modal {
+	display: flex;
+}
+
+form #starlabel {
+	width: 100%;
+	font-size: 17px;
+	color: rgb(69, 69, 69);
+	margin: 5px 0px 50px 0px;
+	text-align: center;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+
+form textarea {
+	height: 100px;
+	width: 100%;
+	outline: none;
+	border: 2px solid rgb(231, 230, 230);
+	background-color: rgb(242, 242, 242);
+	padding: 10px;
+	font-size: 15px;
+	color: rgb(69, 69, 69);
+	resize: none;
+}
+
+.container2 {
+	display: flex;
+	background-color: white;
+	width: 400px;
+	padding: 20px 30px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container2 .star-widget input {
+	display: none;
+}
+
+.star-widget form {
+	width: 100%;
+}
+
+.star-widget label {
+	color: darkgray;
+	font-size: 20px;
+	padding: 5px;
+	float: right;
+	transition: all 0.2s ease;
+}
+
+.star-widget input:not(:checked) ~label:hover, .star-widget input:not(:checked)
+	~label:hover ~label {
+	color: black;
+}
+
+.star-widget input:checked ~label {
+	color: black;
+}
+
+.star-widget input#rate-5:checked ~label {
+	color: black;
+	text-shadow: 0 0 20px rgb(65, 65, 65);
+}
+
+.star-widget {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal .container2 .payhead {
+	margin-bottom: 15px;
+}
+
+.heart {
+	color: red;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.imgoverlay {
+	position: relative;
+}
+
+.alertfav {
+	background-color: rgb(235, 235, 235);
+	border-left: 4px solid black;
+	padding: 20px 40px;
+	min-width: 500px;
+	position: absolute;
+	z-index: 1010;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 20px;
+	text-align: center;
+	opacity: 0;
+}
+
+.alertfav.showalert {
+	opacity: 1;
+}
+
+.alertfav .favmsg {
+	padding: 0 20px;
+}
+
+.alertfav .alertclose {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	padding: 20px 18px;
+	transform: translateY(-50%);
+}
+
+.alertfav .alertclose:hover {
+	cursor: pointer;
+}
+
+.alertfav.show {
+	animation: show_msg .5s ease forwards;
+}
+
+@keyframes show_msg {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 100px;
+    }
+}
+
+.alertfav.hide {
+    animation: hide_msg .5s ease forwards;
+}
+
+@keyframes hide_msg {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: -100px;
+    }
+}
+
+.bg-modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	left: 0px;
+	z-index: 1000;
+}
+
+@media screen and (max-width:800px) {
+	.combo {
+		flex-direction: column;
+	}
+	.fav-header {
+		display: flex;
+		justify-content: center;
+	}
+	.settings {
+		display: flex;
+		flex-direction: column;
+	}
+	.favul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.favul2 li {
+		width: 100%;
+	}
+	.navbar1 {
+		width: 90%;
+	}
+}
+
+.layout_padding {
+	padding: 0px;
+}
+
+.hidden-input {
+	display: none;
+}
+
+.btndiv {
+	column-gap: 20px;
+	display: flex;
+}
+
+.order_card {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+	column-gap: 50px;
+}

@@ -1,0 +1,546 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: 'Macondo', cursive;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@font-face {
+  font-family: mo;
+  src: url(fonts/Moderne\ Sans\ Font.ttf);
+}
+
+
+
+
+
+
+.details span {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.details {
+  padding: 10px;
+}
+
+.checkout select {
+  margin: 16px 15px 16px 0;
+  padding: 10px 5px;
+  background-color: rgb(219, 216, 216);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.checkout select {
+  margin: 0px 15px 0px 0;
+  padding: 10px 5px;
+  background-color: rgb(219, 216, 216);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.left-body button {
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(219, 216, 216);
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.right .footbut {
+  padding: 20px 14px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.favul2 .favulbut .buyagain {
+  background-color: black;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 15px 0px;
+}
+
+
+
+
+
+.container ul {
+  list-style-type: none;
+  padding-left: 1px;
+}
+
+.container ul li {
+  display: block;
+}
+
+
+
+.navbar1 ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.navbar1 ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar1 ul li a:hover {
+  background-color: rgb(219, 216, 216);
+}
+
+.details:hover {
+  background-color: rgb(237, 235, 235);
+  transition: 300ms ease-in-out;
+  border-radius: 10px;
+}
+
+.navbar1 ul li a.active {
+  background-color: rgb(235, 235, 235);
+  border-left: 4px solid black;
+}
+
+.combo {
+margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.combochk {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10%;
+  justify-content: space-between;
+}
+
+.navbar1 {
+  padding-left: 10%;
+  min-width: 30%;
+  font-size: 15px;
+}
+
+.sett {
+  min-width: 60%;
+}
+
+.sett .checkout {
+  padding-left: 0px;
+}
+
+.left {
+  min-width: 40%;
+  padding-left: 30px;
+}
+
+.settings {
+  padding: 10px;
+  border-left: 1px solid rgb(219, 216, 216);
+  padding-top: 0px;
+}
+
+.settings-head {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.settings-head .photo img {
+  border-radius: 50px;
+  width: 70px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.settings label,
+.checkout label,
+.right label {
+  font-weight: bold;
+}
+
+.right label {
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+
+
+.settings button {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(219, 216, 216);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logout {
+  color: red;
+}
+
+.favul .fav {
+  padding: 20px 0px;
+  width: 250px;
+}
+
+.fav img {
+  width: 100%;
+  height: 200px;
+}
+
+.fav2 img {
+  width: 230px;
+  height: 160px;
+}
+
+.fav2 {
+  display: flex;
+  column-gap: 10px;
+  padding: 0px 10px;
+  margin-bottom: 50px;
+}
+
+.fav2 .favulbut {
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.favul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.favul2 {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  width: 75%;
+}
+
+.favul li,
+.favul2 li {
+  cursor: pointer;
+}
+
+.favul li:hover,
+.favul2 li:hover {
+  background-color: rgb(243, 243, 243);
+  transition: 200ms ease-in-out;
+}
+
+.fav-header .title {
+  font-size: 4rem;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+.checkout {
+  list-style-type: none;
+  border-bottom: 2px solid rgb(219, 216, 216);
+  padding: 15px 10px;
+}
+
+.checkout li {
+  padding: 10px;
+}
+
+.right {
+  min-width: 40%;
+  text-align: center;
+  background-color: rgb(245, 241, 241);
+  padding: 10px 70px;
+}
+
+.right .checkout li {
+  text-align: left;
+  color: rgb(59, 59, 59);
+}
+
+.rightbut {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.profbut {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+.profbut p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.paydiv {
+  padding: 10px;
+}
+
+.pad {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 10px 15px 10px 0px;
+}
+
+.labelpad {
+  padding: 15px 10px;
+}
+
+.whole {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.container,
+.cntr,
+.cntr2 {
+  display: none;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  position: relative;
+}
+
+.cntr form .data,
+.cntr2 form .data {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.checkout .center .addresscont {
+  display: none;
+}
+
+.sett .center .container,
+.cntr,
+.cntr2 {
+  padding-left: 5px;
+  padding-right: 22px;
+  padding-bottom: 0px;
+}
+
+.cntr,
+.cntr2 {
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 22px;
+  padding-bottom: 0px;
+}
+
+.sett .center .container input,
+.c .cntr .data input,
+.c .cntr2 .data input {
+  height: 37px;
+}
+
+.sett .center input[type='checkbox'],
+.c input[type='checkbox'] {
+  display: none;
+}
+
+#show:checked~.container,
+#showcntr:checked~.cntr,
+#showcntr2:checked~.cntr2 {
+  display: block;
+}
+
+.container form,
+.cntr form,
+.cntr2 form {
+  margin-top: -20px;
+}
+
+.container form .data,
+.cntr form .data,
+.cntr2 form .data {
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.container form .data input,
+.cntr form .data input,
+.cntr2 form .data input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(241, 241, 241);
+}
+
+.container form .data input:focus,
+.cntr form .data input:focus,
+.cntr2 form .data input:focus {
+  outline: darkgray solid 2px;
+}
+
+#mybtn .closeall{
+  padding: 15px 12px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 0px;
+
+}
+
+.c .cntr button,
+.c .cntr2 button {
+  background-color: rgb(241, 241, 241);
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 37px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.container .closelabel,
+.closelabelcredit,
+.closelabelcash {
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 14px;
+}
+
+.whole .details .num {
+  font-size: medium;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.bg-modalcredit {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.bg-modalcredit form .data {
+  margin-bottom: 0px;
+}
+
+.bg-modalcredit form .btn button {
+  margin-top: 40px;
+}
+
+.bg-modalcash {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.payhead label {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.container ul li {
+  padding: 20px 10px;
+  border-bottom: 1px solid rgb(231, 230, 230);
+  cursor: pointer;
+}
+
+.centerli {
+  display: flex;
+  align-items: center;
+}
+
+.centerli img {
+  margin-right: 20px;
+}
+
+.inputline {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.settings form .data {
+  margin: 20px 0px;
+}
+
+.settings .container {
+  padding-left: 0px;
+}
+
+.namenum {
+  display: none;
+}
+
+.btncenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review {
+  width: 400px;
+  background-color: rgb(98, 96, 96);
+  padding: 20px 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.review .star input {
+  display: none;
+}
+
+.review .star label {
+  color: white;
+}
